@@ -111,7 +111,7 @@ promiseGet('https://jsonplaceholder.typicode.com/posts/1');
 promise의 상태
 
 - pending : 비동기 처리가 아직 수행되지 않은 상태
-- fulfiled : 비동기 처리가 수행되고 성공한 상태
+- fulfilled : 비동기 처리가 수행되고 성공한 상태
 - rejected : 비동기 처리가 수행되고 실패한 상태
 
 생성 직후인 pending 상태에서 resolve 함수 혹은 reject 함수를 호출하면 상태가 바뀐다.
